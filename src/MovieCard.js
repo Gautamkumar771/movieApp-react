@@ -34,7 +34,7 @@ class MovieCard extends React.Component{
                             <img className="str-btn" 
                                 alt="Decrease" 
                                 src="https://cdn-icons-png.flaticon.com/128/2801/2801932.png" 
-                                onClick={() => onDecStars(movies)} //can not directly pass the function in event so i add inline function 
+                                onClick={() => onDecStars(movies)}
                             />
                             <img className="stars" 
                                     alt="stars" 
@@ -44,7 +44,7 @@ class MovieCard extends React.Component{
                                 alt="increase" 
                                 src="https://cdn-icons-png.flaticon.com/128/2997/2997933.png" 
                                 // No binding required as addStars() is an arrow function
-                                onClick={() => onIncStars(movies)}  
+                                onClick={() => onIncStars(movies)}
                             />
                             <span className="starCount">{stars}</span>
                         </div>
