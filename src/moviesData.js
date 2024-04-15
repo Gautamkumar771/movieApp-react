@@ -29,4 +29,14 @@ export const movies = [{
     fav:false,
     isInCart:false
     },
+    {
+        title: "The Batman",
+        plot: "Plot of the movie is related to super natural powers",
+        price: 299,
+        rating: 9.0,
+        poster: "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+        stars: 0,
+        fav:false,
+        isInCart:false
+        },
 ]
